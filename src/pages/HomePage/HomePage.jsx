@@ -1,10 +1,11 @@
 import React from "react";
+import styles from "./HomePage.module.css";
 
 const HomePage = () => {
   return (
-    <div>
-      <h1 className="home-page">Telefon Rehberine Hoşgeldiniz</h1>
-      <p className="home-page">Giriş yaparak veya kayıt olarak rehberinizi yönetebilirsiniz.</p>
+    <div className={styles.homePage}>
+      <h1>Telefon Rehberine Hoşgeldiniz</h1>
+      <p>Giriş yaparak veya kayıt olarak rehberinizi yönetebilirsiniz.</p>
     </div>
   );
 };

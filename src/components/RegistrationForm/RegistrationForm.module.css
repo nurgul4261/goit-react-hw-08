@@ -1,0 +1,16 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    color: #3602d4;
+}
+
+.label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
