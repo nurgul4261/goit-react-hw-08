@@ -12,7 +12,6 @@ const LoginForm = () => {
     actions.resetForm();
   };
 
-  // Yup validation schema
   const validationSchema = Yup.object({
     email: Yup.string()
       .email("Geçerli bir email giriniz")
