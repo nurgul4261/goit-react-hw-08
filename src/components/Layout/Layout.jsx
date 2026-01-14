@@ -1,4 +1,3 @@
-import React from "react";
 import AppBar from "../AppBar/AppBar";
 import styles from "./Layout.module.css";
 
