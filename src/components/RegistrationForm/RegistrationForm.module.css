@@ -3,7 +3,13 @@
     flex-direction: column;
     width: 300px;
     margin: 0 auto;
-    color: #3602d4;
+    font-size: 16px;
+    border-radius: 5px;
+    gap: 10px;
+    border: 1px solid #b9babb;
+    background-color: #b9babb;
+    padding: 20px;
+
 }
 
 .label {

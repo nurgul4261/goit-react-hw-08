@@ -17,3 +17,8 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.error {
+    color: red;
+    font-size: 12px;
+}
