@@ -4,10 +4,11 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  color: #3602d4;
   background-color: #b9babb;
-  box-sizing: border-box;
+  border: 1px solid #b9babb;
   border-radius: 5px;
+  width: 400px;
+  font-size: 20px;
 }
 
 .label {
