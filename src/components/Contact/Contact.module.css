@@ -1,0 +1,15 @@
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3602d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
