@@ -1,14 +1,11 @@
 import AppBar from "../AppBar/AppBar";
 import styles from "./Layout.module.css";
-import { Outlet } from "react-router-dom";
 
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <div className={styles.layout}>
       <AppBar />
-      <main className={styles.main}>
-        <Outlet />
-      </main>
+      <main className={styles.main}>{children}</main>
     </div>
   );
 };
