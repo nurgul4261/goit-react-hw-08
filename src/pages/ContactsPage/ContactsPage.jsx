@@ -5,6 +5,7 @@ import ContactList from "../../components/ContactList/ContactList";
 import Filter from "../../components/Filter";
 import { fetchContacts } from "../../redux/contacts/operations";
 import { selectIsLoading } from "../../redux/contacts/selectors";
+import styles from "./ContactsPage.module.css";
 
 const ContactsPage = () => {
   const dispatch = useDispatch();
@@ -16,7 +17,7 @@ const ContactsPage = () => {
 
   return (
     <div>
-      <h2>Rehber</h2>
+      <h2 className={styles.h2}>Rehber</h2>
       <ContactForm />
       <Filter />
       {isLoading && <p>Yükleniyor...</p>}
